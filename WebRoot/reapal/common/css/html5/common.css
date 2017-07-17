@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* iOS Android  */
+.w { position: relative; margin: 0 auto; width: 100% !important; min-height: 460px; background-color:#fff; overflow: hidden;}
+.m { background-color:#fff;}
+.c { padding:0 5px; margin:0 auto;}
+@media screen and (min-width: 330px) {
+	/* HD Android */
+}
+input, select, button { -webkit-appearance:none;}
+input,textarea,select{border:none;outline:none/*;-webkit-user-modify:read-write-plaintext-only*/}
+
+/* UI */
+.button { display:inline-block; min-width: 100%; height: 50px; line-height: 50px; margin: 10px auto; text-align: center; font-size: 16px; color: #fff; background:#02adea; border:none; border-radius: 5px;}
+.button_p2p { display:inline-block; min-width: 100%; height: 50px; line-height: 50px; margin: 10px auto; text-align: center; font-size: 16px; color: #fff; background:#c70707; border:none; border-radius: 5px;}
+
+
+/* Error */
+.nodata { padding: 40px 0 50px; text-align: center; font-size: 16px;}
+.nodata big { display: block; font-size: 30px; margin-bottom: 20px;}
+
+/* header */
+.fix { position:fixed; left:0px; top:0px;z-index:2008; }
+header .rel { position:relative; left:0px; top:0px;z-index:2008; }
+.headerred { width: 100%; height: 50px; line-height: 50px; background:#c70707; color: #fff; text-align: center; margin-bottom:0px;}
+.headerdiv { width: 100%; height: 50px; line-height: 50px; background:#0271bb; color: #fff; text-align: center; margin-bottom:0px;}
+header h2 { font-size: 20px;}
+header .logo { position:absolute; left:0; top:0; width:150px; height:50px; background:url(../../img/html5/logo.png) no-repeat 5px 8px; text-indent:60px;}
+header .back { position:absolute; left:0; top:0; width: 50px; background:url(../../img/html5/_ui.png) no-repeat -50px -100px; background-size:320px; text-indent: -9999px;}
+ 
+/* footer */
+footer { margin-top:5px;}
+footer .copyright { border-top: 1px solid #EEE; color:#666; padding:10px 0; text-align:center;}
+
+/**/
+.user { width: 100%; height: 50px; line-height: 50px; background:#eeeeee; color: #000; text-align: left; margin-bottom:5px;}
+.user .row-r { font-size: 16px;padding-left:20px;float:left;}
+.user .row-l { font-size: 16px;padding-right:20px;float:right;}
+
+ /* order */
+.order { position:fixed; left:0px; top:50px;z-index:2008;}
+.orderdiv { width: 100%; height: 70px; line-height: 35px; background:#eeeeee; color: #000; text-align: left; margin-bottom:5px;}
+.order .row-p { font-size: 16px;padding-left:20px;}
+.order .blue {color:blue}
+
+ .tab { width:100%; height:40px; line-height:40px; text-align:center; border-bottom:solid 2px #02adea;margin-bottom:5px;}
+ .tab a { float:left; width:100px; background-color:#eee; font-size: 14px; font-weight:700; margin-right:5px;}
+ .tab a.this { background-color:#02adea; color:#fff;}
+ .tab a:last-child { margin-right:0;}
+
+ /* cashier-style1 */
+.cashier .input{border:none;outline:none;width:100%;height:30px;line-height:30px;border-bottom:1px solid #e3e3e3; color:#707070;font-size:14px; border-radius: 0px;}
+.cashier .err { display:; color:#FF0000; margin-left:80px;}
+.cashier .bank { display:; color:#FF0000; margin-left:80px;}
+.cashier .bank_icon {display:box;float:left; width:20px; height:30px;margin-right:5px;background:url(../../img/html5/bank.png) no-repeat -145px -30px;background-size:200px;}
+.cashier p{position:relative;padding:5px 10px 10px 80px;}
+.cashier label{font-size:14px;font-weight: normal;position:absolute;top:10px;left:10px}
+.cashier .sms{position:relative;padding:5px 110px 5px 80px;}
+.cashier .sms label{font-size:14px;font-weight: normal;position:absolute;top:10px;left:10px}
+.cashier .sms .get{ height: 40px; line-height: 40px;padding: 0 10px; text-align: center; color: #fff; background:#02adea; border:none; border-radius: 5px;font-size:14px;position:absolute;top:-5px;right:10px}
+.cashier .success { color:#FF0000; margin:80px;text-align:center;font-size:18px;}
+.cashier .success1 { color:#FF0000; margin:20px;text-align:center;font-size:18px;}
+.cashier .row-p { font-size: 16px;padding-left:20px;}
+.cashier .blue {color:blue}
+
+ /* cashier-style2
+.cashier fieldset { width:308px; height:50px; border:solid 1px #eee; margin:5px auto 0;}
+.cashier .err { display:none; color:#FF0000; margin-top:5px;}
+.cashier label { float:left; width:50px; height:50px; overflow:hidden;}
+.cashier .mobile { background:url(../../img/html5/_ui.png) no-repeat 0 0; background-size:320px;}
+.cashier .pass { background:url(../../img/html5/_ui.png) no-repeat -50px 0; background-size:320px;}
+.cashier .code { background:url(../../img/html5/_ui.png) no-repeat -100px 0; background-size:320px;}
+.cashier input { float:right; width:258px; height:50px; border:none; font-size:20px;}
+.cashier .button { float: none; font-size: 16px;}
+.cashier .text { width:310px; margin:1em auto; text-align:right;}
+
+*/
+
+
+/* search */
+.filter .tab { width:100%; height:50px; line-height:50px; text-align:center; border-bottom:solid 2px #c70707; } 
+.filter .tab a { float:left; width:50%; background-color:#eee; font-weight:700; font-size: 14px;} 
+.filter .tab a.this { background-color:#c70707; color:#fff;}
+.filter dl { display:none; padding-top:5px;}
+.filter dt { float:left; width:95px; line-height:50px; background:#f1f1f1; text-align:center;}
+.filter dd { float:right; width:210px; height:50px;}
+.filter select { width:210px; height:50px; padding:15px 10px;}
+.filter .show, .filter .choose { display: block;}
+.filter .result { display:none ; line-height: 30px; font-size: 16px; padding:5px; background: #f1f1f1; color: #c70707; text-align: center; margin-top:10px;}
+
+
+/* pager */
+.pager { margin:10px 0; line-height:40px;}
+.pager a { width:150px; text-align:center; color:#fff; background-color:#c70707; border-radius:5px;}
+
+
+
+
+
+
+/* message */
+.message .content { text-align: center; font-size: 16px;}
+.message .faild { width: 50px; height: 50px; margin: 20px auto; background:#fff url(../../img/html5/_ui.png) no-repeat -200px -75px; background-size: 320px;}
+.message .success { width: 50px; height: 50px; margin: 20px auto; background:#fff url(../../img/html5/_ui.png) no-repeat -250px -75px; background-size: 320px;}
+/* loading */
+.ajax-overlay { z-index: 8; position: fixed; left: 0; top: 0; width: 100%; background-color: #fff; opacity: 0.3;}
+.ajax-loader { z-index: 9; position: fixed; left: 50%; top: 200px; width: 64px; height: 64px; background: url(../../img/html5/ajax-loader.gif?t=8) no-repeat; background-size: 64px; margin-left: -32px;}
+
+
+
+/* Basic Swiper Styles */
+.swiper-container { margin: 0 auto; position: relative; overflow: hidden; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden; z-index: 1; }
+.swiper-wrapper { position: relative; width: 100%; -webkit-transition-property: -webkit-transform, left, top; -webkit-transition-duration: 0s; -webkit-transform: translate3d(0px, 0, 0); -webkit-transition-timing-function: ease; -moz-transition-property: -moz-transform, left, top; -moz-transition-duration: 0s; -moz-transform: translate3d(0px, 0, 0); -moz-transition-timing-function: ease; -o-transition-property: -o-transform, left, top; -o-transition-duration: 0s; -o-transform: translate3d(0px, 0, 0); -o-transition-timing-function: ease; -o-transform: translate(0px, 0px); -ms-transition-property: -ms-transform, left, top; -ms-transition-duration: 0s; -ms-transform: translate3d(0px, 0, 0); -ms-transition-timing-function: ease; transition-property: transform, left, top; transition-duration: 0s; transform: translate3d(0px, 0, 0); transition-timing-function: ease; }
+.swiper-free-mode > .swiper-wrapper { -webkit-transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -ms-transition-timing-function: ease-out; -o-transition-timing-function: ease-out; transition-timing-function: ease-out; margin: 0 auto; }
+.swiper-slide { float: left; }
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal { -ms-touch-action: pan-y; }
+.swiper-wp8-vertical { -ms-touch-action: pan-x; }
+/* Specify container's and slide's sizes */
+.swiper-container { width:100%; height: 100%;}
+.swiper-slide { width: 100%; height: 100%;}
+.swiper-slide-active {}
+.swiper-slide-visible {}
+/* Pagination Styles */
+.swiper-pagination { z-index: 99; position: absolute; left: 0; bottom: 0; width: 100%; height: 16px; text-align: center;}
+.swiper-pagination-switch { background:#ccc; border-radius: 10px; display: inline-block; height: 10px; margin: 0 3px; width: 10px;}
+.swiper-active-switch { background-color: #c70707;}
+.swiper-visible-switch {}

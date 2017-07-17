@@ -1,0 +1,148 @@
+@charset "UTF-8";html{color:#333;background:#fff}
+body{font:12px/1.5 arial}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}
+address,caption,cite,code,dfn,em,th,var,optgroup{font-style:inherit;font-weight:inherit}em{font-style:normal}h1,h2,h3,h4,h5,h6{font-size:100%}
+
+a:link{text-decoration:none; font-size:12px; font-style:normal; color:#3F628C;}
+a:visited{text-decoration:none; font-size:12px; font-style:normal; color:#3F628C;}
+a:hover{text-decoration: none; font-size:12px; font-style:normal; color:#3F628C;}
+a:active{text-decoration:none; font-size:12px; font-style:normal; color:#3F628C;}
+
+
+.header_wrap{height:70px;border-bottom:3px solid #28529a;min-width:950px}
+.header{width:950px;margin:0 auto; overflow:hidden;}
+.header .fl{padding:10px 0 0;position:relative;float:left}
+.header .fl img{position:absolute;left:10px;top:14px}
+.logo_unionPay{width:200px;height:50px; overflow:hidden;float:left}
+.header .fr{position:relative;z-index:10;float:right}
+.header .fr p{color:#F60;width:500px;text-align:right;position:absolute;top:22px;right:70px; font-size:22px;font-weight:bold;font-style:oblique;}
+.header .fr a{color:#9ea4ae;width:500px;text-align:right;position:absolute;top:17px;right:230px;}
+
+.content{width:950px;margin:0 auto; /*padding-top:20PX;*/}
+
+.tb_style{width:100%; margin:0 auto; /*margin-top:10px;*/ background-color:white;}
+.td_title{  border-top:2px solid #E7EAEC; padding-left:15PX;border-bottom:1px solid #E7EAEC;color:#28529A; font-size:16px; font-weight:bold;}
+.td_border{padding-left:25PX; font-size:13px; color:#666; }
+
+
+
+/* CSS Document */
+ul,li{ list-style:none;}
+*{ padding:0; margin:0;}
+a {
+    text-decoration: none;
+}
+.main{ background-color:#ecedf2; padding-top:15px; padding-bottom:2px;}
+.main .content{ box-shadow: 0 0 5px rgba(0,0,0,.2); background-color:white; }
+.content:hover{ box-shadow: 0 0 12px rgba(0,0,0,.25);}
+.bank-wrap{ padding-left:10px; padding-right:10px; padding-top:15px;  padding-bottom:15px;}
+.ui-tab-items{overflow:hidden;}
+
+.ui-tab-item {float: left;margin-right: 15px;position: relative;margin-bottom: -1px;}
+.ui-tab-item a { border-radius: 3px 3px 0 0; line-height: 34px; background: #F0F0F0; padding: 0 18px;border: 1px solid #f7f7f7;
+border-bottom: 0;color: #4D4D4D;display: inline-block;font-size: 14px;border-color: #c6c6c6;}
+.bw-tab-quick a{ padding-left:50px; }
+.bank-wrap .bw-tab-quick a i {position: absolute;top: 6px;left: 15px; background-repeat:no-repeat; display:block;}
+
+
+.bw-tab-curr a { border-radius: 3px 3px 0 0; line-height: 34px; background: #fff; padding: 0 18px;border: 1px solid #f7f7f7;
+border-bottom: 0;color: #4D4D4D;display: inline-block;font-size: 14px;border-color: #c6c6c6;}
+.bw-tab-curr a{ padding-left:50px; }
+.bank-wrap .bw-tab-curr a i {position: absolute;top: 6px;left: 15px; background-repeat:no-repeat; display:block; background-color:}
+
+
+.bw-tab-content{ padding:20px 10px 10px; overflow:hidden;}
+.bw-tab-content .kj{ width:450px; border-right:1px solid #e1e1e1; float:left; }
+.bw-tab-content .kj-txt{ wtdth:400px; float:left; padding-left:30px;}
+.bank-wrap .bw-tab-content .payment-list {width: 940px; overflow:hidden;}
+.bank-wrap .bw-tab-content .pl-wrap {width: 950px;overflow:hidden;}
+.payment-list .pl-item {position: relative;_zoom: 1;float: left;background-color: #fff;padding: 5px 0;height: 28px;width: 188px;
+margin-right: 42px;margin-bottom: 15px;cursor: pointer;border: 1px solid #b0c2e1;border-radius: 2px;    }
+.payment-list .pl-item .bank-logo {margin-left: 25px;}
+.bank-logo {
+    background-image:url(../images/bank-logo.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 125px;
+    height: 28px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+#back-icbc{ background-position:0 -140px;}
+#bank-ccb {
+    background-position: 0 -336px;
+}
+#bank-cmb {
+    background-position: 0 -784px;
+}
+#bank-abc {
+    background-position: 0 -532px;
+}
+#bank-bcom {
+    background-position: 0 -392px;
+}
+#bank-gdb {
+    background-position: 0 -196px;
+}
+#bank-boc {
+    background-position: 0 -840px;
+}
+#bank-cmbc {
+    background-position: 0 -448px;
+}
+#bank-hxb {
+    background-position: 0 -308px;
+}
+#bank-cib {
+    background-position: 0 -756px;
+}
+#bank-ceb {
+    background-position: 0 -168px;
+}
+#bank-psbc {
+    background-position: 0 -869px;
+}
+#bank-cncb{
+    background-position: 0 -896px;
+}
+#bank-pab{
+    background-position: 0 -560px;
+}
+#bank-sdb{
+    background-position: 0 -700px;
+}
+#bank-bos{
+    background-position: 0 -672px;
+}
+#bank-srcb{
+    background-position: 0 -645px;
+}
+
+#bank-hzcb{
+    background-position: 0 -254px;
+}
+#bank-nbcb{
+    background-position: 0 -504px;
+}
+#bank-cbhb{
+    background-position: 0 -55px;
+}
+#bank-njcb{
+    background-position: 0 -477px;
+}
+#bank-hebb{
+    background-position: 0 -55px;
+}
+#bank-spdb{
+    background-position: 0 -588px;
+}
+.paybox.paybox-selected {
+border: 0;
+border: 1px solid #c6c6c6;
+padding: 10px 10px 10px 10px;
+border-radius: 2px;
+background-color: #fff;
+}
+
+.footer{margin:10px auto 0;height:50px;width:100%;color:#728196;padding:10px 0 0;text-align:center; background-color:#FFF;}
+.footer div{ height:7px; }

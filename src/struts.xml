@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="default" extends="struts-default">
+		<action name="WXPay" class="com.tencent.WXPayAction"
+			method="weixinPay">
+		</action>
+		<action name="WXNotify" class="com.tencent.WXPayAction"
+			method="WXNotifyCallback">
+		</action>
+		<action name="getHeepayUrl" class="com.heepay.GetPayUrlAction"
+			method="doExecute">
+		</action>
+
+		<action name="heepayNotifyUrl" class="com.heepay.NotifyUrlAction"
+			method="doExecute">
+		</action>
+		
+		<action name="ShortPayQueryAuthBanks" class="com.heepay.ShortPayQueryAuthBanksAction"
+			method="doExecute">
+		</action>
+		
+		<action name="ShortPaySubmitOrder" class="com.heepay.ShortPaySubmitOrderAction"
+			method="doExecute">
+		</action>
+
+		<action name="ShortPayNotifyUrl" class="com.heepay.ShotPayNotifyUrlAction"
+			method="doExecute">
+		</action>
+		
+		<action name="kexundoPay" class="com.ekapay.KexunPayAction"
+			method="doPay">
+		</action>
+		
+		<action name="kexunCallback" class="com.ekapay.KexunPayAction"
+			method="callback">
+		</action>
+		
+		<action name="puxunPay" class="com.puxun.PuxunPayAction"
+			method="doPay">
+		</action>
+		
+		<action name="puxunCallback" class="com.puxun.PuxunPayAction"
+			method="callback">
+		</action>
+		<action name="xingPay" class="com.puxun.XingPayAction"
+			method="doPay">
+		</action>
+		
+		<action name="xingpayCallback" class="com.puxun.XingPayAction"
+			method="callback">
+		</action>
+		<action name="sanfuCallback" class="com.sanfu.SanFuPayAction"
+			method="sanFuNotifyCallback">
+		</action>
+		<action name="zhifuWapPay" class="com.zf.ZFPayAction"
+			method="zhifuWapPay">
+		</action>
+		<action name="zhifuPay" class="com.zf.ZFPayAction"
+			method="zhifuPay">
+		</action>
+		
+		<action name="ZFNotifyCallback" class="com.zf.ZFPayAction"
+			method="ZFNotifyCallback">
+		</action>
+		<action name="ddbPay" class="com.ddb.DDBPayAction"
+			method="ddbPay">
+		</action>
+		
+		<action name="DDBNotifyCallback" class="com.ddb.DDBPayAction"
+			method="DDBNotifyCallback">
+		</action>
+		<action name="haioPay" class="com.haiopay.service.HaioPayAction" method ="dopay"/>
+		<action name="haioCallback" class="com.haiopay.service.HaioPayAction" method="callback"/>
+	</package>
+</struts>
